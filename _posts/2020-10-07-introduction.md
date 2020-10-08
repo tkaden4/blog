@@ -31,6 +31,9 @@ Subjects will include, but are not limited to:
 - Arduino / Raspberry PI
 - Open source software
 
+Additionally, I will be including some of the lab assignments from my classes, both for me to be able to reference
+in the future, and to function as a way to show my instructors that I am actively participating.
+
 ## Frequency
 
 Due to my course load and job situation, I don't expect to create a blog post more than once a week, but I will
