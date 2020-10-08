@@ -3,8 +3,6 @@ layout: post
 title: "About + Introduction"
 ---
 
-# About + Introduction
-
 Hi, I'm Kaden Thomas, currently working as a Full Stack Developer and studying to
 become an Industrial Automation and Control Systems Engineer.
 
