@@ -26,7 +26,7 @@ the converse is also true: $$I$$ must increase if $$R$$ decreases.
 
 Lets imagine a series circuit with two resistors. It would look something like this:
 
-<img src="{{ site.baseurl }}/assets/series-resistors.svg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/series-resistors.svg" style="background-color: ghostwhite; max-height: 400px">
 
 We have a voltage source of voltage $$V$$, and two resistors of resistance $$R1$$ and $$R2$$.
 Because this is a series circuit, $$I$$ must be constant. This means the respective voltage drops
@@ -36,7 +36,7 @@ $$V_{R1} = I \times R1$$
 
 $$V_{R2} = I \times R2$$
 
-<img src="{{ site.baseurl }}/assets/series-resistors-measurements.svg" style="background-color: ghostwhite;" height=450>
+<img src="{{ site.baseurl }}/assets/series-resistors-measurements.svg" style="background-color: ghostwhite; max-height: 400px">
 
 $$V_{R1}$$ and $$V_{R2}$$ must add up to $$V$$, as all energy is dissipated through resistors $$R1$$ and $$R2$$.
 This lets us relate these voltage quantities as an equality:
@@ -65,18 +65,18 @@ Let's take a look and see how this translates into reality in the next section.
 
 ### Series Resistance (Reality)
 
-<img src="{{ site.baseurl }}/assets/lab1/three-resistors.jpg" style="background-color: ghostwhite;" height=350>
+<img src="{{ site.baseurl }}/assets/lab1/three-resistors.jpg" style="background-color: ghostwhite;" style="max-height: 400px">
 
 What you're seeing above is 3 different resistors in series in a strip of terminal blocks. This is equivalent to the
 following schematic:
 
-<img src="{{ site.baseurl }}/assets/lab1/three-resistors-schem.svg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/three-resistors-schem.svg" style="background-color: ghostwhite; max-height: 400px">
 
 Measuring across each resistor in order from left to right:
 
-<img src="{{ site.baseurl }}/assets/lab1/first-resistance.jpg" style="background-color: ghostwhite;" height=400>
-<img src="{{ site.baseurl }}/assets/lab1/second-resistance.jpg" style="background-color: ghostwhite;" height=400>
-<img src="{{ site.baseurl }}/assets/lab1/third-resistance.jpg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/first-resistance.jpg" style="max-height: 400px">
+<img src="{{ site.baseurl }}/assets/lab1/second-resistance.jpg" style="max-height: 400px">
+<img src="{{ site.baseurl }}/assets/lab1/third-resistance.jpg" style="max-height: 400px">
 
 So we have resistor values of $$10.3\Omega$$, $$219.3\Omega$$, and $$991\Omega$$.
 If our theory is correct, we should get
@@ -87,7 +87,7 @@ $$
 
 This turns out to be exactly the case after taking a measurement across all three resistors:
 
-<img src="{{ site.baseurl }}/assets/lab1/total-resistance.jpg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/total-resistance.jpg" style="max-height: 400px">
 
 Our theory was less than a percent off, which can be chalked up to environmental factors such as terminal resistance,
 humidity, and temperature.
@@ -97,17 +97,17 @@ We start with a 5v supply, giving us roughly $$3\text{mA}$$ of current, which al
 is about $$\frac{5\text{V}}{1220.6\Omega} = 4\text{mA}$$. Most likely its around $$3.9\text{mA}$$ but my power source
 lacks the precision.
 
-<img src="{{ site.baseurl }}/assets/lab1/power-settings.jpg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/power-settings.jpg" style="max-height: 400px">
 
 Measuring voltage drops across each resistor in order from left to right:
 
-<img src="{{ site.baseurl }}/assets/lab1/first-voltage.jpg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/first-voltage.jpg" style="max-height: 400px">
 $$4\text{mA} \times 10.3\Omega = 0.0412\text{V}$$
 
-<img src="{{ site.baseurl }}/assets/lab1/second-voltage.jpg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/second-voltage.jpg" style="max-height: 400px">
 $$4\text{mA} \times 219.3\Omega = 0.8772\text{V}$$.
 
-<img src="{{ site.baseurl }}/assets/lab1/third-voltage.jpg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/third-voltage.jpg" style="max-height: 400px">
 $$4\text{mA} \times 991\Omega = 3.964\text{V}$$
 
 The total of the measurements is
@@ -124,7 +124,7 @@ $$
 
 Fairly close, what is the total measured drop?
 
-<img src="{{ site.baseurl }}/assets/lab1/total-voltage.jpg" style="background-color: ghostwhite;" height=400>
+<img src="{{ site.baseurl }}/assets/lab1/total-voltage.jpg" style="max-height: 400px">
 
 The measured drop is pretty much spot on with the totals of what we measured, and not too far off from the
 theoretical value calculated from the current and each individual resistance.
